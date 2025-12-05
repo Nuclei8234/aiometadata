@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.12.1](https://github.com/cedya77/aiometadata/compare/v1.12.0...v1.12.1) (2025-12-05)
+
+
+### Bug Fixes
+
+* **anime art:** use the same art for catalog and meta even when use imdb id for MAL catalogs/search ([0375ccf](https://github.com/cedya77/aiometadata/commit/0375ccfb1a795167936574c74c749a1dbde9c809))
+* **config:** safe SCAN-based deletion for meta cache clearing to avoid callstack/KEYS issues ([86efcce](https://github.com/cedya77/aiometadata/commit/86efcce6fd39070ddbc5ac2cad1b5ae928d99d28))
+* **top rating:** use the correct endpoint for api key testing ([6ef0c70](https://github.com/cedya77/aiometadata/commit/6ef0c7099a226b30de0369b6e29844297f3b07bf))
+
 ## [1.12.0](https://github.com/cedya77/aiometadata/compare/v1.11.0...v1.12.0) (2025-11-29)
 
 
